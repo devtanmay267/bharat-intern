@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+:root{
+    --primary-color:#15e38a;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(245, 233, 218);
+}
+.container{
+    max-width: 530px;
+    width: 40vw;
+    min-height: 340px;
+    height: 56vh;
+    border-radius: 36px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 12px rgb(239, 213, 180),-5px -5px 12px rgb(239, 213, 180);
+    padding: 20px;
+    margin: 20px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 31px;
+    box-shadow: 5px 5px 8px rgb(209, 223, 235),-5px -5px 8px rgb(239, 243, 247);
+    padding: 10px 20px;
+}
+.fa-temperature-high{
+    font-size: 70px;
+}
+.text-symbol    {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+    padding: 0 20px;
+    font-size:60px ;
+    margin: 15px 0;
+    border-radius: 36px;
+    box-shadow: inset 6px 6px 4px rgb(244, 223, 195),
+                inset -6px -6px 4px rgb(241, 237, 232);
+}
+input{
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius:36px ;
+    margin: 4px;
+    box-shadow: inset 6px 6px 4px rgb(245, 224, 197),-6px -6px 4px rgb(245, 239, 231);
+}
+.text_celsius,.text_fahrenheit{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 5px 0;
+}
+.inptemp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}

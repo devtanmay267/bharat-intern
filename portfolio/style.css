@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:rgb(25, 21, 37) ;
+}
+header {
+    background-color: rgba(23, 21, 21);
+    
+    
+}
+
+.title{
+    text-transform: capitalize;
+    font-size: 6vh;
+    color: beige;
+    animation: slideright 1s ease forwards;
+    margin-left: 20px;
+}
+.container div{
+    box-shadow: 50px 70px white ;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    background-attachment: fixed;
+}
+ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+ul li{
+    margin-left:45px ;
+    text-transform: capitalize;
+    color: beige;
+    animation: slidetop 1s ease forwards;
+    font-size: 22px;
+
+}
+ul {
+    font-weight:600;
+    transition: 0.3s;
+}
+ul li:hover{
+   /* color: #3354c2f7;
+    font-size: 26px;*/
+    box-shadow: 7px 9px 30px #202020 ,-7px -9px 40px #383838;
+    height: 30px;
+    width: 100px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    color: aliceblue;
+}
+.home h3{
+    text-transform: capitalize;
+    font-size: 26px;
+}
+.home h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    animation: slideright 2.4s ease forwards;
+}
+.setimg{
+    object-fit: cover;
+    height: 500px;
+    width: 300px;
+    margin-bottom: 100px
+}
+.image{
+
+    filter: drop-shadow(10px 14px 50px  rgb(97, 89, 124));
+    filter:brightness(90%);
+    margin-left: 20px;
+    /*box-shadow: 1px 1px 40px #012290f7;*/
+    /*border:2px solid #222b46f7;*/
+    height: 100%;
+    width: 100%;
+    animation: slidetop 2s ease forwards;
+    
+}
+.name{
+    text-shadow:3px 6px 20px #012290f7;
+    color:#3354c2f7;
+}
+.abimage{
+    border-radius: 50%;
+    margin-left: 80px;
+    box-shadow: 3px 4px 14px #012290f7 ,-2px -3px 20px #012290f7;
+    border:2px solid #222b46f7;
+    height: 100%;
+    width: 100%;
+        
+}
+.about-img img{
+    margin-bottom: 120px;
+}
+.about{
+    display: flex;
+    color: aliceblue;
+}
+.abtext{
+    margin: 80px;
+    margin-left: 120px;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 50px;
+}
+h4{
+   margin-top: 20px;
+   font-size: 22px; 
+}
+.home h3{
+    animation: slideBottom 1s ease forwards;
+}
+p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.card{
+    height: 400px;
+    width: 330px;
+    color: aliceblue;
+    background-color: rgba(27, 26, 26, 0.665);
+    margin-bottom: 50px;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    text-transform: capitalize;
+}
+.card{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #012290f7;
+    
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
+      }
+    
+.card:hover{
+    /* width: 340px;
+    height: 470px; */
+    /* animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) ;  */
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+}
+/* @-webkit-keyframes scale-up-center {
+    
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  } */
+  /* @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  } */
+  
+.wrapper img{
+    width: 260px;
+    height: 50vh;
+    border: 2px solid white;
+    box-shadow: 1px 1px 40px #012290f7;
+}
+.image1 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.image1 img{
+    border-radius: 9px;
+    display: block;
+}
+.con2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 110px;
+    
+}
+#mp {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content1 p{
+    margin:3px ;
+    background: rgba(0,0,0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97%;
+    height: 95%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content1 p:hover{
+    opacity: 1;
+}
+.btn{
+    border: 1px solid rgb(246, 238, 238);
+    border-radius: 4px;
+    margin-top:50px; 
+    background: transparent;
+}
+.btn a{
+    padding: 4px 9px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    background: transparent;
+    color: rgba(203, 186, 186, 0.901);
+
+}
+.cont3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 55%;
+    margin-bottom: 10%;
+}
+.contact{
+    display: block;
+    width: 650px;
+    height: 400px;
+    color: beige;
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 7vb;
+    animation: slideright 1s ease forwards;
+}
+.contact h3{
+    font-size: 4vb;
+    animation: slideright 1s ease forwards;
+}
+.contact p{
+    font-size: 3vh;
+    animation: slideright 1s ease forwards;
+}
+.contact{
+    margin-left: 30px;
+}
+.form{
+    margin-left: 2vb;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vb;
+}
+.form form input ,form textarea{
+    width: 80vh;
+    padding: 10px ;
+    margin-top: 20px;
+}
+.submit {
+    border-radius: 100px;
+    font-size: large;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #0ef;
+    border: none;
+    box-shadow: 0 0 5px #0ef,0 0 25px #0ef;
+    animation: slidetop 1s ease forwards;
+    cursor: pointer;
+}
+input :last-c1hild{
+    margin-top: 100px;
+}
+input{
+    border-radius: 6px;
+}
+@keyframes slideright{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+@keyframes slidetop{
+    0%{
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity:1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translatey(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity:1;
+    }
+}
